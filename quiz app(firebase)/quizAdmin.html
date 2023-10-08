@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>quiz admin</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 style="text-align: center;">QUIZ ADMIN PANEL</h1>
+    <div>
+        <ul>
+            <div style="text-align: center;">
+                <input style="width: 600px; height: 30px; font-size: 20px;" type="text" id="quiz"
+                    placeholder="QUESTION ADD.........">
+                <button onclick="add()" class="add"><i style="font-size: 25px;"
+                        class="fa-solid fa-plus add-icon"></i></button>
+            </div>
+            <div style="text-align: center; margin-top: 10px;">
+                <input style="width: 200px; height: 30px; font-size: 20px;" id="one" placeholder="OPTION ONE...." type="text">
+                <input  style="width: 200px; height: 30px; font-size: 20px;" id="two" placeholder="OPTION TWO...." type="text">
+            </div>
+
+            <div style="text-align: center; margin-top: 10px;">
+                <input style="width: 200px; height: 30px; font-size: 20px;" id="three" placeholder="OPTION THREE..." type="text">
+                <input style="width: 200px; height: 30px; font-size: 20px;" id="four" placeholder="OPTION FOUR" type="text">
+            </div>
+            <div style="text-align: center; margin-top: 10px;">
+                    <input style="width: 200px; height: 30px; font-size: 20px;" id="correctOpt" placeholder="CORRECT OPTION...." type="text">
+            </div>
+
+        
+            <li id="list"></li>
+        </ul>
+
+    </div>
+
+
+
+    <script type="module" src="app.js"></script>
+</body>
+
+</html>
